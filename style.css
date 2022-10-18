@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: left;
+}
+
+.manos {
+    padding: 2rem 2rem 1rem;
+    max-width: 100%;
+    height: 160px;
+}
+
+body {
+    font-family: 'Silkscreen', cursive;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(54, 52, 58);
+
+}
+
+.card {
+    background: url(./images/fondo.jpg);
+    background-size: 680px;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: rgb(231, 66, 157);
+    position: relative;
+    bottom: -0.5rem;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+h1:hover{
+    color: rgb(172, 99, 139);
+}
+
+.choose {    
+    color: rgb(240, 181, 213);
+    padding: 3rem 0rem 4rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+.choose:hover {
+    transition: 2s;
+    color: rgb(231, 66, 157);
+    transform: scale(1.1);
+    text-shadow: 2px 2px #ffffff
+}
+
+button:hover{    
+    background: url(./images/fondo.jpg);
+    background-position: top;    
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.bttons {        
+    padding: 0rem 0rem 1rem 0rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton {
+    padding: 0.3rem 1rem;
+    border-radius: 0.2rem;
+    background: url(/images/fondo.jpg);
+    background-position: bottom;
+    font-family: 'Silkscreen', cursive;
+    font-size: large;
+    color: aliceblue;
+    border-color: black;
+}
+hr{
+    border: 1px dotted rgb(219, 91, 161);
+}
+
+.play,
+.play2 {
+    padding: 1rem 0rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.p1{
+    color: aliceblue;
+}
+.p1:hover{
+    color: black;
+}
+a{
+    color: rgb(97, 22, 63);
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+
+
+
