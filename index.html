@@ -12,17 +12,18 @@
 <body>
     <div class="card">
         <h1>Rock - Paper - Scissors</h1>
-        <img class="manos" src="./images/c2.png">
-        <h2 class="choose" id="start-Text">Choose an opcion</h2>
-
+        <!-- <img class="manos" src="./images/c2.png"> -->
+        <h2 class="choose" id="start-Text">START!</h2>
+        <div class="messageStart">Choose an opcion</div>
 
         <div class="bttons">
             <button class="boton" id="rock" onclick="1" type="button">Rock</button>
             <button class="boton" id="paper" onclick="2" type="button">Paper</button>
             <button class="boton" id="scissors" onclick="3" type="button">Scissor</button>
         </div>
+        <p id="scores">Player: 0 | Computer: 0 | ties: 0</p>
         <div class="play">
-            <h2 class="p1">Player</h2>
+            <h2>Player</h2>
             <h2>Computer</h2>
 
         </div>
@@ -31,9 +32,12 @@
             <h2 class="p1" id="userSelect">-</h2>
             <h2 id="pcSelect">-</h2>
         </div>
+        <div class="button-restart">
 
-        
-        <a href="https://www.linkedin.com/in/leandromz/" target="_blank">2022 - Leandro Martinez </a>
+            <button id="resetButton" class="boton">Restart</button>
+        </div>
+
+        <a href="https://www.linkedin.com/in/leandromz/" target="_blank">2023 - Leandro Martinez </a>
 
 
     </div>

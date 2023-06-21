@@ -6,16 +6,20 @@
     box-sizing: border-box;
     text-decoration: none;
     text-align: left;
+    font-family: 'Silkscreen', cursive;
 }
 
 .manos {
+    /* background-color: rgb(35,9,48); */
     padding: 2rem 2rem 1rem;
-    max-width: 100%;
-    height: 160px;
+    width: 100%;
+    /* height: 160px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
 }
 
 body {
-    font-family: 'Silkscreen', cursive;
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
@@ -26,8 +30,9 @@ body {
 }
 
 .card {
+    width: 50%;
     background: url(./images/fondo.jpg);
-    background-size: 680px;
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1rem;
     box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.5);
@@ -53,12 +58,7 @@ h1:hover{
     display: flex;
     justify-content: center;
 }
-.choose:hover {
-    transition: 2s;
-    color: rgb(231, 66, 157);
-    transform: scale(1.1);
-    text-shadow: 2px 2px #ffffff
-}
+
 
 button:hover{    
     background: url(./images/fondo.jpg);
@@ -76,29 +76,27 @@ button:hover{
     border-radius: 0.2rem;
     background: url(/images/fondo.jpg);
     background-position: bottom;
-    font-family: 'Silkscreen', cursive;
     font-size: large;
     color: aliceblue;
-    border-color: black;
+    border-color: rgb(35,9,48)
 }
 hr{
     border: 1px dotted rgb(219, 91, 161);
 }
 
-.play,
-.play2 {
+.play,.play2{
     padding: 1rem 0rem;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
-}
-
-.p1{
     color: aliceblue;
 }
-.p1:hover{
-    color: black;
+.play2{
+    align-items: center;
+    height: 10.5rem;
 }
+
+
 a{
     color: rgb(97, 22, 63);
     padding: 1rem;
@@ -108,5 +106,44 @@ a{
 
 }
 
+.messageStart{
+    color: rgb(240, 181, 213);
+    display: flex;
+    justify-content: center;   
+    padding: 1rem;
+    font-size: x-large;
 
+}
+.img-result, .img-result-2{
+    width: 50%;    
+}
+#userSelect, #pcSelect {
+    text-align: center;
+}
+.button-restart{
+    display: flex;
+    justify-content: center;
+   margin-bottom: 2rem;
+}
+#scores{
+    text-align: center;
+    padding: 1rem;
+    /* margin: 2rem 0 0; */
+    font-weight: 500;
+    background-color: rgba(35,9,48);
+    color: springgreen;
+}
+@media (min-width: 800px) {
+    #scores{
+        font-size: xx-large;        
+}
+.play2{
+    margin: 2.5rem;
+}
+}
+@media (max-width: 800px) {
+    .card {
+        width: 80%;
+}
 
+}
